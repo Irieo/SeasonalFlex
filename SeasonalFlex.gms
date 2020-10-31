@@ -5,7 +5,7 @@ $ontext
 Code for the paper "Seasonal Flexibility in the European Natural Gas Market"
 Iegor Riepin, LSEW BTU Cottbus-Senftenberg
 
-This code is published under a Creative Commons Attribution-ShareAlike 4.0 License 
+This code is published under a Creative Commons Attribution-ShareAlike 4.0 License
 that provides everyone with free and perpetual permission to access, edit and share copies of this work.
 See: https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -45,7 +45,9 @@ $set resultdir  output\
 *###############################################################################
 
 * Name of a scenario
-$setglobal GlobalSCEN scen_reference_public
+$setglobal GlobalSCEN scen_EUCO
+*$setglobal GlobalSCEN scen_ST
+*$setglobal GlobalSCEN scen_DG
 
 * Name of an output file
 $set       result     AF_%GlobalSCEN%
